@@ -540,7 +540,7 @@ def card():
             hand.setFill(skin_colors[0])
             hand.draw(win)
 
-            update(200)
+            update(50)
 
         # This loop tilts the arm back to an upright position
         for j in range(10):
@@ -564,7 +564,7 @@ def card():
             hand.setFill(skin_colors[0])
             hand.draw(win)
 
-            update(200)
+            update(50)
 
         # This loop tilts the arm toward the right edge of the window
         for k in range(10):
@@ -588,7 +588,7 @@ def card():
             hand.setFill(skin_colors[0])
             hand.draw(win)
 
-            update(200)
+            update(50)
 
     win.checkMouse()
     win.close()
